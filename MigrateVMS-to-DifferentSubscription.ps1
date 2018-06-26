@@ -4,20 +4,20 @@
 #Definir essas variaveis antes de começar
 #Provide the subscription Id of the subscription where managed disk exists
 Login-AzureRmAccount
-$sourceSubscriptionId='c3046bbd-f294-477d-b45a-88bf5802dd45'
+$sourceSubscriptionId=''
 
 #Provide the name of your resource group where managed disk exists
-$sourceResourceGroupName='rg-azlinux'
+$sourceResourceGroupName=''
 
 #Provide the subscription Id of the subscription where managed disk will be copied to
 #If managed disk is copied to the same subscription then you can skip this step
-$targetSubscriptionId='8ee574c4-5c7f-49f3-a0e5-46bb85c18013'
+$targetSubscriptionId=''
 
 #Name of the resource group where snapshot will be copied to
-$targetResourceGroupName='rg-azlinux'
+$targetResourceGroupName=''
 
 #Location of the resources. MUST BE The same location for the two subscriptions
-$location = "West US 2"
+$location = ""
 
 #Deste ponto em diante não é necessário editar
 #cria tabela
