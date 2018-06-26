@@ -1,6 +1,5 @@
-﻿#**Disclaimer**: This sample script is not supported under any Microsoft standard support program or service. 
-#This samplescript is provided AS IS without warranty of any kind.
-
+﻿#**Disclaimer**: This sample script is not supported 
+ 
 #Definir essas variaveis antes de começar
 #Provide the subscription Id of the subscription where managed disk exists
 Login-AzureRmAccount
